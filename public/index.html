@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+    <div class="container">
+
+		<input type="text" placeholder="Buscar">
+		<div class="btn" onclick="redirectToPage()">
+			<script>
+				function redirectToPage() {
+				  window.location.href = "http://localhost:3000/form/index.html";
+				}
+			  </script>
+			<i class="fa fa-plus"></i>
+		</div>
+    <div class="btn2" onclick="redirectToPage2()">
+			<script>
+				function redirectToPage2() {
+				  window.location.href = "http://localhost:3000/api/blockchain";
+				}
+			  </script>
+			<input type="submit" value="Ver cadena" class="btn2" />
+    </div>
+	
+    <div class="btn3" onclick="redirectToPage3()">
+		<script>
+			function redirectToPage3() {
+			  window.location.href = "http://localhost:3000/busqueda.html";
+			}
+		  </script>
+		<input type="submit" value="Busqueda" class="btn3" />
+</div>
+	</div>
+	
+	<div>
+	</div>
+  <div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- http://localhost:3000 -->

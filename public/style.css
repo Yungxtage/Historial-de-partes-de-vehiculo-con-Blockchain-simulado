@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(48, 48, 48);
+}
+
+.container {
+	position: absolute;
+	left: 48%;
+	top: 45%;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+}
+.text{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	left: 10%;
+	position: absolute;
+	padding-left: 700;
+}
+
+input {
+	outline: none;
+	box-sizing: border-box;
+	height: 60px;
+	width: 00px;
+	padding: 0 20px;
+	color: #000;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #ffffff;
+}
+
+::placeholder {
+	color: grey;
+}
+
+.btn {
+	position: absolute;
+	right: -10px;
+	top: 0px;
+	width: 80px;
+	height: 80px;
+	background: #9c9c9c;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn i {
+	font-size: 25px;
+	color: white;
+	line-height: 80px;
+	
+}
+.btn2 {
+	position: absolute;
+	right: -30%;
+	top: 50px;
+	width: 200px;
+}
+
+.btn3 {
+	position: absolute;
+	right: -30%;
+	top: 150px;
+	width: 200px;
+}
+.btn2 i {
+	font-size: 25px;
+	color: white;
+	line-height: 80px;
+	
+}
+
+
+.btn:hover{
+	background: #000000;
+}
+.btn2:hover{
+	background: #616161;
+}
